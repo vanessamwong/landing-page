@@ -30,6 +30,11 @@ body {
     background-color: black;
 }
 
+.logo {
+    padding: 0 50px;
+    width: 100px;
+    height: auto;
+}
 h3 {
     color: #F9FAF8;
     padding: 0 50px;
