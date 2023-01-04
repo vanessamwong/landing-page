@@ -15,17 +15,38 @@ body {
 }
 
 .hero-bar{
+    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
+    height: 100px;
+    background-color: black;
+}
+
+.one.hero-content {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
 }
 
 h3 {
     color: #F9FAF8;
+    padding: 0 50px;
+    text-align: left;
+}
+
+nav {
+    align-self: right;
+    padding: 0 50px;
 }
 
 a {
+    text-decoration: none;
+    padding: 0 30px;
     color: #F9FAF8;
 }
 .one, .two, .three, .four, .five {
+    display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
@@ -36,16 +57,25 @@ a {
     background-color: #1F2937;
 }
 
+.one {
+    height: 650px;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
 .two, .four {
     background-color: #F9FAF8;
+    height: 500px;
 }
 
 .three {
     background-color: #E5E7EB;
+    height: 500px;;
 }
 
 .five {
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
+    height: 5vh;
 }
