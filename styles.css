@@ -4,12 +4,44 @@
 
 body {
     margin: 0;
-    height: 100%;
+    padding: 0;
+    height: 100vh;
     font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hero-bar{
+    flex-direction: row;
+}
+
+h3 {
+    color: #F9FAF8;
+}
+
+a {
+    color: #F9FAF8;
+}
+.one, .two, .three, .four, .five {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .one, .five {
     background-color: #1F2937;
+}
+
+.two, .four {
+    background-color: #F9FAF8;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
 
 .five {
