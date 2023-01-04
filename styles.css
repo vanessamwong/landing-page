@@ -19,13 +19,14 @@ body {
     justify-content: space-between;
     flex-direction: row;
     height: 100px;
-    background-color: black;
 }
 
-.one.hero-content {
-    justify-content: center;
+.hero-content {
+    height: 250px;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: auto;
+    margin: 100px;
     background-color: black;
 }
 
@@ -38,6 +39,11 @@ h3 {
 nav {
     align-self: right;
     padding: 0 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #E5E7EB;
 }
 
 a {
