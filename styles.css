@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.one, .five {
+    background-color: #1F2937;
+}
+
+.five {
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
