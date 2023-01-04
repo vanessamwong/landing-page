@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Goose Society</title>
+    <script>
+        function honk(){
+            var sound = new Audio("honk.mp3");
+            sound.play();
+        }
+    </script>
 </head>
 <body>
     <div class="main-container">
@@ -13,37 +19,37 @@
             <header class="flex-container hero-bar">
                 <img src="images/bird logo.png" class="logo">
                 <nav>
-                    <a href="">header link one</a>
-                    <a href="">header link two</a>
-                    <a href="'">header link three</a>
+                    <a href="">About</a>
+                    <a href="">Photo Gallery</a>
+                    <a href="">Contact</a>
                 </nav>
             </header>
             <div class="flex-container hero-content">
-                <div class="flex-container">
-                    <h1>This website is awesome</h1>
-                    <p>This is some subtext placeholder</p>
-                    <button type="button">Sign Up</button>
+                <div class="flex-container sign-up">
+                    <h1>Do you like geese? We love geese.</h1>
+                    <p class="sign-up-caption">Love 'em or hate 'em, geese are everywhere! Join the Goose Society today!</p>
+                    <button type="button" onclick="honk()" class="sign-honk">Sign Up</button>
                 </div>
-                <img src="images/okipullup.png">
+                <img src="images/okipullup.png" class="okipullup">
             </div>
         </div>
         <div class="flex-container two">
             <h2>Some random information</h2>
             <div class="flex-container">
                 <div class="flex-container">
-                    <img src="images/birdtle.png">
+                    <img src="images/birdtle.png" class="birdtle">
                     <p>caption</p>
                 </div>
                 <div class="flex-container">
-                    <img src="images/honkmander.png">
+                    <img src="images/honkmander.png" class="honkmander">
                     <p>caption</p>
                 </div>
                 <div class="flex-container">
-                    <img src="images/bulbagoose.png">
+                    <img src="images/bulbagoose.png" class="bulbagoose">
                     <p>caption</p>
                 </div>
                 <div class="flex-container">
-                    <img src="images/happynewyear!.png">
+                    <img src="images/happynewyear!.png" class="newyear">
                     <p>caption</p>
                 </div>
             </div>

@@ -27,7 +27,29 @@ body {
     align-items: center;
     padding: auto;
     margin: 100px;
-    background-color: black;
+}
+
+.sign-up {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.sign-up-caption {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.sign-honk {
+    border: none;
+    background-color: #3882F6;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .logo {
@@ -35,10 +57,23 @@ body {
     width: 100px;
     height: auto;
 }
-h3 {
+
+.okipullup {
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.birdtle, .honkmander, .bulbagoose, .newyear {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 60px;
     color: #F9FAF8;
-    padding: 0 50px;
-    text-align: left;
+    margin-bottom: 20px;
 }
 
 nav {
