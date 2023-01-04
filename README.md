@@ -1,1 +1,2 @@
 # landing-page
+This is a mock landing page built from scratch with HTML and CSS for The Odin Project. Ideally, it would be used to advertise a product or service, but I currently have it as a goose fan page. Hope you like it!
