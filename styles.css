@@ -90,6 +90,8 @@ a {
     text-decoration: none;
     padding: 0 30px;
     color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
 }
 .one, .two, .three, .four, .five {
     display: flex;
