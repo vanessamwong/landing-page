@@ -104,8 +104,8 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
-    height: 300px;
-    width: 1500px;
+    height: 70%;
+    width: 80%;
     border-radius: 25px;
     padding-right: 200px;
     padding-top: auto;
