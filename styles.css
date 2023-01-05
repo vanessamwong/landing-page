@@ -107,16 +107,16 @@ body {
     height: 70%;
     width: 80%;
     border-radius: 25px;
-    padding-right: 200px;
     padding-top: auto;
     padding-bottom: auto;
+    padding-right: 15%;
 }
 
 .goose-puns {
     display: block;
     padding-top: 25px;
     padding-bottom: auto;
-    padding-left: 200px;
+    margin-left: 15%;
 }
 
 .slogan {
