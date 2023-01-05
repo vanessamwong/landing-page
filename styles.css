@@ -99,6 +99,16 @@ body {
     color:#1F2937;
     padding-left: 650px;
 }
+
+.pitch {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    height: 300px;
+    width: 1500px;
+    border-radius: 25px;
+}
+
 h1 {
     font-size: 60px;
     color: #F9FAF8;
