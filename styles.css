@@ -107,6 +107,37 @@ body {
     height: 300px;
     width: 1500px;
     border-radius: 25px;
+    padding-right: 200px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.goose-puns {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: auto;
+    padding-left: 200px;
+}
+
+.slogan {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-top: -40px;
+}
+
+.second {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: url("images/cursor.png"), auto;
+    margin-top: 120px;
 }
 
 h1 {
@@ -119,6 +150,12 @@ h2 {
     font-size: 28px;
     font-weight: bold;
     color: #1F2937;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 64px;
+    font-weight: bold;
 }
 
 nav {
