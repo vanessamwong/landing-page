@@ -7,6 +7,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: "Roboto", sans-serif;
+    cursor: url("images/cursor.png"), auto;
 }
 
 .main-container {
@@ -50,6 +51,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    cursor: url("images/cursor.png"), auto;
 }
 
 .logo {
@@ -64,16 +66,30 @@ body {
     border-radius: 25px;
 }
 
-.birdtle, .honkmander, .bulbagoose, .newyear {
-    width: 200px;
+.birdtle, .honkmander, .bulbagoose {
+    width: 300px;
     height: auto;
     border-radius: 20px;
+}
+
+.pkmn {
+    display: block;
+}
+
+.name {
+    text-align: center;
 }
 
 h1 {
     font-size: 60px;
     color: #F9FAF8;
     margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 nav {
@@ -84,6 +100,15 @@ nav {
 a:hover {
     text-decoration: underline;
     color: #E5E7EB;
+    cursor: url("images/cursor.png"), auto;
+}
+
+a:active {
+    cursor: url("images/cursor.png"), auto;
+}
+
+a:visited {
+    cursor: url("images/cursor.png"), auto;
 }
 
 a {
@@ -92,6 +117,7 @@ a {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
+    cursor: url("images/cursor.png"), auto;
 }
 .one, .two, .three, .four, .five {
     display: flex;
@@ -109,6 +135,10 @@ a {
     height: 650px;
     align-items: stretch;
     justify-content: stretch;
+}
+
+.two {
+
 }
 
 .two, .four {
